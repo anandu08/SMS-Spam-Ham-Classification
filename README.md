@@ -28,7 +28,7 @@ The dataset contains two columns: label and message. The label column contains t
 
 The distribution of message lengths for spam and ham messages was visualized using a histogram. This was done using the matplotlib and seaborn libraries.
 
-# Data Preprocessingh
+# Data Preprocessing
 
 The dataset was split into training and testing sets using the train_test_split() function from the sklearn library. The training set was used to train the Naive Bayes algorithm, while the testing set was used to evaluate its performance.
 
