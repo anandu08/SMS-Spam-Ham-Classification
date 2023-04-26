@@ -5,8 +5,9 @@ nltk.download('stopwords')
 from nltk.corpus import stopwords
 import streamlit as st
 model = joblib.load('model.joblib')
-text = st.text_input('Enter text you want to classify: ')
 st.title('Spam or Ham')
+text = st.text_input('Enter text you want to classify: ')
+
 # Define a function to process text data
 def text_process(mess):
     STOPWORDS = stopwords.words('english')
