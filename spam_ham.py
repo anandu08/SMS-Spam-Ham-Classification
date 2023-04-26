@@ -1,5 +1,6 @@
 import joblib
 import string
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import streamlit as st
 model = joblib.load('model.joblib')
