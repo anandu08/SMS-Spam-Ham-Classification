@@ -1,4 +1,3 @@
 joblib
 nltk
-string
 streamlit
