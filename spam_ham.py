@@ -15,7 +15,7 @@ def text_process(mess):
 # Define a function to make predictions on new data
 def predict_spam_ham(text):
     text = text_process(text)
-    print(text)
+    text=text.lower()
     pred = model.predict([text])[0]
     if pred == 0:
         return 'ham'
